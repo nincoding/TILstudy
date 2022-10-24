@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴를 비정형으로 배치하기</title>
+    <style>
+*{margin:0; padding:0;}
+#wrap{margin:0 auto;
+text-align:center; width:800px;}
+#main{width:800px; height:700px;background-color: green; position:relative;}
+
+#a, #b, #c, #d, #e, #f{width:100px; height:50px;
+    border-radius: 10px; 
+background-color:yellow; box-shadow: 3px 3px 10px white;
+position:absolute;}
+a{text-decoration: none; color:black; font-weight:bold;}
+#main div{padding-top: 20px;}
+
+#a{top:100px;left:350px;}
+#b{top:200px;left:200px;}
+#f{top:200px;left:500px;}
+#c{top:400px;left:200px;}
+#d{top:500px;left:350px;}
+#e{top:400px;left:500px;}
+#f{top:200px;left:500px;}
+
+    </style>
+</head>
+<body>
+    <div id="wrap"> 
+    <h2>프로그래밍 강좌</h2>
+     
+    <div id="main">
+<div id="a"><a href="#">HTML강좌</a></div>
+<div id="b"><a href="#">CSS강좌</a></div>
+<div id="c"><a href="#">C#강좌</a></div>
+<div id="d"><a href="#">PHP강좌</a></div>
+<div id="e"><a href="#">자바강좌</a></div>
+<div id="f"><a href="#">파이썬강좌</a></div>
+
+
+</div>
+</div>
+</body>
+</html>
